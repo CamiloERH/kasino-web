@@ -1,0 +1,62 @@
+<html>
+<head>
+    <%- include ('partials/head.html') %>
+    
+</head>
+<body>
+    
+    <%- include ('partials/navigation.html') %>
+
+    
+    <div class="container mt-4">
+        <div class="container-fluid text-center">
+            <img  class="float-lg-right pb-5 animate__animated animate__flipInY" id="indexImage" src="/img/pngwing.com.png" alt="casinoDices">    
+        </div>
+        <div class="jumbotron">
+            <h1 class="display-4">Bienvenido a Kasino</h1>
+            <p class="lead">¡Derroche su dinero aquí!</p>
+            <hr class="my-4">   
+            <a id="bases" class="btn btn-primary btn-lg" href="info.html" role="button">Más infomación</a>
+        </div>
+    </div>
+
+    <div class="container mb-5 d-flex flex-wrap justify-content-around">
+        <div class="card my-2" style="width: 18rem;">
+            <img class="img-thumbnail" src="https://images.unsplash.com/photo-1567517024911-289435152490?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="ruleta">
+            <div class="card-body">
+                <h5 class="card-title">Ruleta</h5>
+                <hr class="my-2">
+                <p class="card-text">Juegue y apueste en la ruleta.</p>
+                <a href="/ruleta.html" class="btn btn-success">Jugar</a>
+            </div>
+        </div>
+    
+        <div class="card my-2" style="width: 18rem;">
+            <img class="img-thumbnail" src="https://images.unsplash.com/photo-1522617889820-47708e025180?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80" class="card-img-top" alt="dados">
+            <div class="card-body">
+                <h5 class="card-title">Dados</h5>
+                <hr class="my-2"> 
+                <p class="card-text">A lanzar los dados.</p>
+                <a href="/dados.html" class="btn btn-success">Jugar</a>
+            </div>
+        </div>
+        
+        <div class="card my-2" style="width: 18rem;">
+            <img class="img-thumbnail" src="https://images.unsplash.com/photo-1568085370188-5e8b2418d85c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="moneda">
+            <div class="card-body">
+                <h5 class="card-title">Cara o sello</h5>
+                <hr class="my-2">  
+                <p class="card-text">Haga su apuesta.</p> 
+                <a href="/moneda.html" class="btn btn-success">Jugar</a>
+            </div>
+        </div>
+    </div>
+
+    
+   
+
+
+    <%- include ('partials/footer.html')%>
+   
+</body>
+</html>

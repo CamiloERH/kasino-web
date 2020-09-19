@@ -1,0 +1,37 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+footer  {
+    color: white;
+    background-color: #343a40;
+    padding: 20px;
+
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.square{
+    width: 200px;
+    height: 200px;
+    background: purple;
+    margin: 0.1%;
+    border-radius: 15%;
+}
+
+#indexImage {
+    width: 500px;
+    height: 500px;
+}
+
+.jumbotron {
+    margin-top: 58px;
+}
